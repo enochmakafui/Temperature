@@ -49,6 +49,9 @@ form.addEventListener("submit",(e)=>{
             showAnswer.textContent = answer;
         }
     }
+    else {
+    alert("Please enter a number")
+    }
 })
 
 

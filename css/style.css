@@ -107,6 +107,35 @@ form{
 }
 
 
+[data-state="incorrect"]{
+ animation: shake 0.5s ease-in-out both;
+}
+
+
+
+@keyframes shake {
+    10%,
+    30%,
+    50%,
+    70%,
+    90%{
+        transform: translateX(-10%)
+    }
+
+
+
+    20%,
+    40%,
+    60%,
+    80%{
+        transform: translateX(10%)
+    }
+
+    100%{
+        transform: translateX(0)
+    }
+
+}
 /* Larger Screens */
 
 @media(min-width:736px){
